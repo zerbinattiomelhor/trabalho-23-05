@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zerbinatti</title>
+    <style>
+    #topbox{
+        border: 10px solid black;
+        display: flex;  
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; /* Adicionando margem na parte inferior */
+    }
+    
+    #bottombox{
+        border: 5px solid green;
+        display: flex;
+        justify-content: space-between; /* Distribui os itens igualmente com espaço entre eles */
+        align-items: center;
+        padding: 20px; /* Adicionando um preenchimento interno */
+    }
+    
+    #ball{
+         width: 175px;
+         height: 175px;
+         border-radius: 50%;
+         background-color:darkviolet;
+    }
+
+
+    .btn-style {
+         width: 150px;
+         height: 30px;
+         background-color: green;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 5px;
+         color: white;
+         margin: 0 10px;
+         
+    }
+
+    .btn {
+            display: flex;
+    }
+
+    .botão{
+        width: 400px;
+        height: 400px;
+        background-color: darkred;
+        align-items: center;
+        border-radius: 5px;
+        color: cadetblue;
+        margin: 0 300px; /* Adicionando margem entre as caixas */
+    }
+    </style>
+</head> 
+
+<body>
+    <div id="topbox">
+       <div id="ball"></div>
+       
+       <div>
+          <h2>João Pedro Zerbinatti Muniz</h2> 
+          <h4>Torcedor do Coritiba</h4>
+          <h4>Estudante do 1º do TI</h4>
+       </div>
+       <div class="btn"> 
+           <div class="btn-style"><p style="margin: 20px;">Linkedin</p></div>
+           <div class="btn-style"><p>Github</p></div>
+       </div>
+    </div>
+    <div id="bottombox">
+       <div class="botão"></div>
+       <div class="botão"></div>
+    </div>
+</body>
+</html>
